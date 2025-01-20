@@ -1,5 +1,7 @@
 # Instalacion de minikube en una maquina virtual Ubuntu Focal 20.04 en virtualbox.
 
+NOTA muy importnate: No ejecutar todos los comandos en modo super usuario, pues genera errores. Solo algunos comandos descritos en las guias ocupan sudo, aplicarlos tal cual asi.
+
 - Instalamos docker siguiendo las instrucciones de la pagina: https://docs.docker.com/engine/install/ubuntu/
    - La forma de instalacion es: Install using the apt repository
 - Instalamos kubectl siguiendo las instrucciones de la siguiente pagina: https://kubernetes.io/es/docs/tasks/tools/install-kubectl-linux/
